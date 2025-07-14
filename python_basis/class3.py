@@ -22,3 +22,12 @@ print(type(zhenfgchu))#这个是整除哈不管四舍五入的原则，直接忽
 
 mizhishu = num1**3
 print(mizhishu)
+
+name = input("请输入你的年龄：")
+print(name,type(name))
+name = int(name)
+print(type(name))
+
+print("年龄\n生日\n姓名\n")
+print("年龄\t生日\t姓名\t")
+print("年龄\r生日\r姓名\r")
