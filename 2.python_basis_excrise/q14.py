@@ -13,6 +13,9 @@ def jie(a):
 
 Num = int(input("please input a number!"))
 
+
+
+
 res = []
 for i in range(0,100,1):
     if (jie(Num) == 1):
