@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 
 vc = cv.VideoCapture('0.picture\VID_20231003_123113.mp4') #读取视频
 #vc = cv.VideoCapture(0) #读取视频
+print(vc)
 
 #视频的读取
 if vc.isOpened():

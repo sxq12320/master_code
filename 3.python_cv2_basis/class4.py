@@ -27,14 +27,9 @@ plt.subplot(224),plt.imshow(img,'brg'),plt.title('4')
 plt.show()
 
 '''
-
-
-
 cv.imshow('R',cur_Img_R)
 cv.imshow('G',cur_Img_G)
 cv.imshow('B',cur_Img_B)
-
-
 
 
 cv.waitKey(0)

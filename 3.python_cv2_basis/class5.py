@@ -9,7 +9,7 @@ img = cv.imread('0.picture\cat.jpg')
 #边缘填充
 
 first = cv.copyMakeBorder(img,top_size,bottom_size,left_size,right_size,borderType=cv.BORDER_REFLECT)      #复制方法
-Second =  cv.copyMakeBorder(img,top_size,bottom_size,left_size,right_size,borderType=cv.BORDER_REPLICATE)  #反射法
+Second = cv.copyMakeBorder(img,top_size,bottom_size,left_size,right_size,borderType=cv.BORDER_REPLICATE)  #反射法
 third = cv.copyMakeBorder(img,top_size,bottom_size,left_size,right_size,borderType=cv.BORDER_REFLECT101)   #反射法
 forth = cv.copyMakeBorder(img,top_size,bottom_size,left_size,right_size,borderType=cv.BORDER_WRAP)         #外包装法
 fifth = cv.copyMakeBorder(img,top_size,bottom_size,left_size,right_size,borderType=cv.BORDER_CONSTANT,value=2)     #常量法

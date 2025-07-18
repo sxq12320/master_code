@@ -18,5 +18,3 @@ cv_show('hello',img)
 #cv.imshow('image1',img)   #图像进行显示
 #cv.waitKey(0)  #等待时间0表示任意键终止，若其他的数据是毫秒级的显示
 #cv.destroyAllWindows()#释放窗口
-
-
